@@ -36,7 +36,7 @@ inquirer
     }
   ])
   .then((answer) => {
-    console.log("Hello " + answer.user_name);
+    console.log("Hello " + answer.user_name,role);
   })
   
   
